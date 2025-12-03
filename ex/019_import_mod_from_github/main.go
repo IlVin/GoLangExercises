@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	testmod "github.com/IlVin/go-mod/pkg/testmod"
+	"github.com/IlVin/gomod/pkg/testmod"
 )
 
 func main() {
