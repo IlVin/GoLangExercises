@@ -1,6 +1,15 @@
 package watch2
 
-import "time"
+import (
+	"fmt"
+	"time"
+)
+
+
+type MyStruct struct {
+	struct {A int; B int }
+	a float64
+}
 
 type Stopwatch struct {
 	start     time.Time
@@ -20,5 +29,8 @@ func (w *Stopwatch) SaveSplit() {
 
 // Возвращает слайс с продолжительностями промежуточных результатов относительно стартового времени
 func (w *Stopwatch) GetResults() []time.Duration {
+	myv := MyStruct{}
+	myv.int = 45
+	fmt.Println(myv)
 	return w.durations
 }

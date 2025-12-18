@@ -1,0 +1,3 @@
+mode: set
+tests/pkg/summator/summator.go:9.45,12.2 2 1
+tests/pkg/summator/summator.go:14.35,16.2 1 1
